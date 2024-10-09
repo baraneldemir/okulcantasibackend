@@ -26,11 +26,11 @@ const Person = mongoose.model("Person", personSchema)
 const router = Router()
 
 const storeItems = new Map([
-    [1, {priceInCents: 99999, name: "Cetvel"}],
-    [2, {priceInCents: 99999, name: "Ingilizce kitaplar"}],
-    [3, {priceInCents: 99999, name: "Kareli Defter"}],
-    [4, {priceInCents: 99999, name: "Cizgili Defter"}],
-    [5, {priceInCents: 99999, name: "Hesap Makinesi"}], 
+    [1, {priceInCents: 19999, name: "Cetvel"}],
+    [2, {priceInCents: 19999, name: "Ingilizce kitaplar"}],
+    [3, {priceInCents: 19999, name: "Kareli Defter"}],
+    [4, {priceInCents: 19999, name: "Cizgili Defter"}],
+    [5, {priceInCents: 19999, name: "Hesap Makinesi"}], 
     ])
 
 
