@@ -4,6 +4,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import Stripe from "stripe";
 import mongoose from "mongoose";
+import serverless from "serverless-http"
 
 const api = express();
 
